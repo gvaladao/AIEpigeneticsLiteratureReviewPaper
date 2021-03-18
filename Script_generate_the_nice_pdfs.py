@@ -1,3 +1,10 @@
+### This is the script used to format in nice pdf files the information retrieved from Pubmed for 
+### the literature review  paper entitled "Artificial Intelligence in Epigenetic studies: 
+### shedding light on Rare Diseases" whose authors are Sandra Brasil, Catia Neves, tatiana Rijoff, Marta Falcao, 
+### Goncalo Valadao, Paula A. Videira, Vanessa dos Reis Ferreira. It requires Latex.
+
+
+
 import os
 from pylatex import Document, Section, Subsection, Command, LargeText
 from pylatex.utils import italic, NoEscape, bold
